@@ -1,0 +1,550 @@
+2024-11-13 08:27:47,913 [main] INFO  org.ticketwavecli.Main - Welcome to the Ticket Wave CLI
+2024-11-13 08:27:52,106 [main] INFO  org.ticketwavecli.Main - Starting the ticketing system...
+2024-11-13 08:28:08,339 [main] INFO  org.ticketwavecli.Main - Welcome to the Ticket Wave CLI
+2024-11-13 08:28:11,265 [main] INFO  org.ticketwavecli.Main - Starting the ticketing system...
+2024-11-13 08:58:23,093 [main] INFO  org.ticketwavecli.Main - Welcome to the Ticket Wave CLI
+2024-11-13 08:58:31,453 [main] INFO  org.ticketwavecli.Main - Starting the ticketing system...
+2024-11-13 09:00:15,963 [main] INFO  org.ticketwavecli.ticketWaveCli - Configuration file loaded successfully.
+2024-11-13 09:00:15,971 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:00:15,971 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 2 ticket(s).
+2024-11-13 09:00:15,971 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 2 ticket(s).
+2024-11-13 09:00:15,971 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 2 ticket(s).
+2024-11-13 09:00:15,971 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:00:15,971 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:00:15,972 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:00:15,972 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:00:15,972 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:00:15,973 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 2 Tickets released. remainingTickets: 16
+2024-11-13 09:00:15,973 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 2 Tickets released. remainingTickets: 14
+2024-11-13 09:00:15,973 [Thread-0] INFO  org.ticketwavecli.TicketPool - Ticket Pool is full. Vendor1 is waiting.
+2024-11-13 09:00:15,989 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:15,989 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:15,989 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:15,989 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:15,989 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:00:15,997 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:00:15,989 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 successfully purchased 4 ticket(s).
+2024-11-13 09:00:15,997 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 2 Tickets released. remainingTickets: 12
+2024-11-13 09:00:15,997 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:15,997 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:15,997 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:00:15,997 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:00:17,005 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:00:17,005 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:00:18,982 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 2 ticket(s).
+2024-11-13 09:00:18,982 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 2 Tickets released. remainingTickets: 10
+2024-11-13 09:00:18,982 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 2 ticket(s).
+2024-11-13 09:00:18,982 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:18,983 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:18,983 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 successfully purchased 4 ticket(s).
+2024-11-13 09:00:18,983 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 2 Tickets released. remainingTickets: 8
+2024-11-13 09:00:18,984 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:18,984 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:18,984 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:00:18,984 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:00:19,000 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 2 ticket(s).
+2024-11-13 09:00:19,000 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 2 Tickets released. remainingTickets: 6
+2024-11-13 09:00:19,000 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:19,000 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:19,000 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 successfully purchased 4 ticket(s).
+2024-11-13 09:00:19,000 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:00:19,993 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:00:19,993 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:00:20,009 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:00:20,010 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:00:21,988 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 2 ticket(s).
+2024-11-13 09:00:21,988 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 2 Tickets released. remainingTickets: 4
+2024-11-13 09:00:21,988 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 2 ticket(s).
+2024-11-13 09:00:21,988 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:21,988 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:21,988 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:00:21,988 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 2 Tickets released. remainingTickets: 2
+2024-11-13 09:00:21,988 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:21,988 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:21,988 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:00:21,988 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:00:21,988 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:00:22,004 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 2 ticket(s).
+2024-11-13 09:00:22,004 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 2 Tickets released. remainingTickets: 0
+2024-11-13 09:00:22,004 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:22,004 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:00:15 IST 2024}
+2024-11-13 09:00:22,004 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 successfully purchased 4 ticket(s).
+2024-11-13 09:00:22,004 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer 2 : No more tickets to purchase.
+2024-11-13 09:00:22,004 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer 2 : No more tickets to purchase.
+2024-11-13 09:00:22,004 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 successfully purchased 4 ticket(s).
+2024-11-13 09:00:22,004 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer 3 : No more tickets to purchase.
+2024-11-13 09:00:22,005 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer 3 : No more tickets to purchase.
+2024-11-13 09:00:22,005 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer 3 : No more tickets to purchase.
+2024-11-13 09:00:22,005 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer 3 : No more tickets to purchase.
+2024-11-13 09:00:22,005 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 successfully purchased 4 ticket(s).
+2024-11-13 09:00:23,009 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:00:23,009 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:00:23,010 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2: Finished purchasing tickets.
+2024-11-13 09:00:23,009 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:00:23,011 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1: Finished purchasing tickets.
+2024-11-13 09:00:23,011 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3: Finished purchasing tickets.
+2024-11-13 09:00:25,003 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2: No more tickets to release.
+2024-11-13 09:00:25,003 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3: No more tickets to release.
+2024-11-13 09:00:25,005 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3: Finished releasing tickets.
+2024-11-13 09:00:25,005 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2: Finished releasing tickets.
+2024-11-13 09:00:25,005 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1: No more tickets to release.
+2024-11-13 09:00:25,006 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1: Finished releasing tickets.
+2024-11-13 09:00:25,006 [main] INFO  org.ticketwavecli.Main - Ticketing system completed.
+2024-11-13 09:01:26,651 [main] WARN  org.ticketwavecli.Main - The ticketing system is already running.
+2024-11-13 09:01:38,121 [main] INFO  org.ticketwavecli.Main - Ticket wave CLI stopping...
+2024-11-13 09:01:38,121 [main] INFO  org.ticketwavecli.Main - Ticket wave CLI stopped.
+2024-11-13 09:04:16,116 [main] INFO  org.ticketwavecli.Main - Welcome to the Ticket Wave CLI
+2024-11-13 09:04:18,727 [main] INFO  org.ticketwavecli.Main - Starting the ticketing system...
+2024-11-13 09:06:24,403 [main] INFO  org.ticketwavecli.Main - Welcome to the Ticket Wave CLI
+2024-11-13 09:06:40,161 [main] INFO  org.ticketwavecli.Main - Starting the ticketing system...
+2024-11-13 09:06:53,490 [main] INFO  org.ticketwavecli.ticketWaveCli - Configuration file loaded successfully.
+2024-11-13 09:06:53,498 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 2 ticket(s).
+2024-11-13 09:06:53,498 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 2 ticket(s).
+2024-11-13 09:06:53,498 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:06:53,498 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 2 ticket(s).
+2024-11-13 09:06:53,498 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:06:53,498 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:06:53,503 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 2 Tickets released. remainingTickets: 16
+2024-11-13 09:06:53,509 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:53,509 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:53,509 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:06:53,509 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:06:53,509 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 2 Tickets released. remainingTickets: 14
+2024-11-13 09:06:53,509 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:53,525 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:53,525 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:06:53,525 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 2 Tickets released. remainingTickets: 12
+2024-11-13 09:06:53,525 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:53,525 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:53,525 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:06:53,526 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:06:53,525 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 successfully purchased 4 ticket(s).
+2024-11-13 09:06:56,504 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 2 ticket(s).
+2024-11-13 09:06:56,504 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 2 Tickets released. remainingTickets: 10
+2024-11-13 09:06:56,504 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:56,504 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:56,504 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:06:56,504 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:06:56,525 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 2 ticket(s).
+2024-11-13 09:06:56,525 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 2 Tickets released. remainingTickets: 8
+2024-11-13 09:06:56,525 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:56,525 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:56,525 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 successfully purchased 4 ticket(s).
+2024-11-13 09:06:56,525 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:06:56,527 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:06:56,528 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:06:56,527 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 2 ticket(s).
+2024-11-13 09:06:56,529 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 2 Tickets released. remainingTickets: 6
+2024-11-13 09:06:56,529 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:56,529 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:56,529 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 successfully purchased 4 ticket(s).
+2024-11-13 09:06:56,529 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:06:59,512 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 2 ticket(s).
+2024-11-13 09:06:59,512 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 2 Tickets released. remainingTickets: 4
+2024-11-13 09:06:59,512 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:59,512 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:59,512 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:06:59,528 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:06:59,528 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:06:59,528 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 2 ticket(s).
+2024-11-13 09:06:59,528 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 2 Tickets released. remainingTickets: 2
+2024-11-13 09:06:59,528 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:59,528 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:59,528 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 successfully purchased 4 ticket(s).
+2024-11-13 09:06:59,528 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:06:59,545 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 2 ticket(s).
+2024-11-13 09:06:59,545 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 2 Tickets released. remainingTickets: 0
+2024-11-13 09:06:59,545 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:06:59,545 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:59,545 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:06:53 IST 2024}
+2024-11-13 09:06:59,546 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer 1 : No more tickets to purchase.
+2024-11-13 09:06:59,546 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer 1 : No more tickets to purchase.
+2024-11-13 09:06:59,546 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 successfully purchased 4 ticket(s).
+2024-11-13 09:06:59,546 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer 3 : No more tickets to purchase.
+2024-11-13 09:06:59,546 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer 3 : No more tickets to purchase.
+2024-11-13 09:06:59,546 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 successfully purchased 2 ticket(s).
+2024-11-13 09:07:02,525 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1: No more tickets to release.
+2024-11-13 09:07:02,525 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1: Finished releasing tickets.
+2024-11-13 09:07:02,541 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3: No more tickets to release.
+2024-11-13 09:07:02,541 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3: Finished releasing tickets.
+2024-11-13 09:07:02,541 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:07:02,542 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2: Finished purchasing tickets.
+2024-11-13 09:07:02,557 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:07:02,557 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3: Finished purchasing tickets.
+2024-11-13 09:07:02,557 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2: No more tickets to release.
+2024-11-13 09:07:02,557 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2: Finished releasing tickets.
+2024-11-13 09:07:02,557 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:07:02,558 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1: Finished purchasing tickets.
+2024-11-13 09:07:02,558 [main] INFO  org.ticketwavecli.Main - Ticketing system completed.
+2024-11-13 09:08:46,569 [main] INFO  org.ticketwavecli.Main - Welcome to the Ticket Wave CLI
+2024-11-13 09:08:50,469 [main] INFO  org.ticketwavecli.Main - Starting the ticketing system...
+2024-11-13 09:08:53,829 [main] INFO  org.ticketwavecli.ticketWaveCli - Configuration file loaded successfully.
+2024-11-13 09:08:53,846 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:08:53,846 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:08:53,847 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:08:53,847 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:08:53,847 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 2 ticket(s).
+2024-11-13 09:08:53,847 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:08:53,847 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 2 ticket(s).
+2024-11-13 09:08:53,847 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:08:53,847 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 2 ticket(s).
+2024-11-13 09:08:53,847 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 2 Tickets released. remainingTickets: 16
+2024-11-13 09:08:53,847 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 2 Tickets released. remainingTickets: 14
+2024-11-13 09:08:53,863 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:53,863 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:53,863 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:53,863 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:53,863 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:08:53,863 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 successfully purchased 4 ticket(s).
+2024-11-13 09:08:53,872 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:08:53,872 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 2 Tickets released. remainingTickets: 12
+2024-11-13 09:08:53,872 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:53,872 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:53,872 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:08:53,872 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:08:56,852 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 2 ticket(s).
+2024-11-13 09:08:56,852 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 2 Tickets released. remainingTickets: 10
+2024-11-13 09:08:56,852 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 2 ticket(s).
+2024-11-13 09:08:56,853 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:56,853 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:56,853 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 successfully purchased 4 ticket(s).
+2024-11-13 09:08:56,853 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 2 Tickets released. remainingTickets: 8
+2024-11-13 09:08:56,855 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:56,855 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:56,855 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:08:56,886 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 2 ticket(s).
+2024-11-13 09:08:56,886 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 2 Tickets released. remainingTickets: 6
+2024-11-13 09:08:56,886 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:08:56,886 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:56,887 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:56,887 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 successfully purchased 4 ticket(s).
+2024-11-13 09:08:56,887 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:08:59,854 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 2 ticket(s).
+2024-11-13 09:08:59,854 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 2 Tickets released. remainingTickets: 4
+2024-11-13 09:08:59,854 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:59,854 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:59,854 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:08:59,855 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:08:59,855 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:08:59,857 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 2 ticket(s).
+2024-11-13 09:08:59,857 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 2 Tickets released. remainingTickets: 2
+2024-11-13 09:08:59,857 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:59,857 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:59,857 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 successfully purchased 4 ticket(s).
+2024-11-13 09:08:59,857 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:08:59,887 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:08:59,887 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:08:59,888 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 2 ticket(s).
+2024-11-13 09:08:59,888 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 2 Tickets released. remainingTickets: 0
+2024-11-13 09:08:59,888 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:59,889 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:08:53 IST 2024}
+2024-11-13 09:08:59,890 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer 2 : No more tickets to purchase.
+2024-11-13 09:08:59,891 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer 2 : No more tickets to purchase.
+2024-11-13 09:08:59,891 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 successfully purchased 4 ticket(s).
+2024-11-13 09:08:59,891 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer 3 : No more tickets to purchase.
+2024-11-13 09:08:59,891 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer 3 : No more tickets to purchase.
+2024-11-13 09:08:59,891 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 successfully purchased 2 ticket(s).
+2024-11-13 09:09:02,858 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:09:02,858 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3: No more tickets to release.
+2024-11-13 09:09:02,859 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1: Finished purchasing tickets.
+2024-11-13 09:09:02,858 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1: No more tickets to release.
+2024-11-13 09:09:02,860 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1: Finished releasing tickets.
+2024-11-13 09:09:02,860 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3: Finished releasing tickets.
+2024-11-13 09:09:02,892 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:09:02,893 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2: Finished purchasing tickets.
+2024-11-13 09:09:02,892 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2: No more tickets to release.
+2024-11-13 09:09:02,893 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2: Finished releasing tickets.
+2024-11-13 09:09:02,892 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:09:02,894 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3: Finished purchasing tickets.
+2024-11-13 09:09:02,894 [main] INFO  org.ticketwavecli.Main - Ticketing system completed.
+2024-11-13 09:09:32,700 [main] INFO  org.ticketwavecli.Main - Ticket wave CLI stopping...
+2024-11-13 09:09:32,700 [main] INFO  org.ticketwavecli.Main - Ticket wave CLI stopped.
+2024-11-13 09:09:41,921 [main] INFO  org.ticketwavecli.Main - TicketWaveCli exiting.
+2024-11-13 09:14:38,731 [main] INFO  org.ticketwavecli.Main - Welcome to the Ticket Wave CLI
+2024-11-13 09:14:44,800 [main] INFO  org.ticketwavecli.Main - Starting the ticketing system...
+2024-11-13 09:14:47,422 [main] INFO  org.ticketwavecli.ticketWaveCli - Configuration file loaded successfully.
+2024-11-13 09:14:47,430 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:14:47,430 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:14:47,431 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:14:47,431 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 2 ticket(s).
+2024-11-13 09:14:47,431 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:14:47,431 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 2 ticket(s).
+2024-11-13 09:14:47,431 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 2 ticket(s).
+2024-11-13 09:14:47,433 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 2 Tickets released. remainingTickets: 16
+2024-11-13 09:14:47,448 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:47,448 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:47,448 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:14:47,466 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:14:47,466 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:14:47,466 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 2 Tickets released. remainingTickets: 14
+2024-11-13 09:14:47,466 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 2 Tickets released. remainingTickets: 12
+2024-11-13 09:14:47,466 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:47,466 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:47,466 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:47,466 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:47,466 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:14:47,466 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 successfully purchased 4 ticket(s).
+2024-11-13 09:14:47,466 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:14:50,436 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 2 ticket(s).
+2024-11-13 09:14:50,436 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 2 Tickets released. remainingTickets: 10
+2024-11-13 09:14:50,436 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:50,436 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:50,436 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:14:50,436 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:14:50,468 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 2 ticket(s).
+2024-11-13 09:14:50,468 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 2 ticket(s).
+2024-11-13 09:14:50,468 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:14:50,469 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 2 Tickets released. remainingTickets: 8
+2024-11-13 09:14:50,470 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:50,471 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:50,471 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 successfully purchased 4 ticket(s).
+2024-11-13 09:14:50,471 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:14:50,472 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:14:50,472 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 2 Tickets released. remainingTickets: 6
+2024-11-13 09:14:50,472 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:50,472 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:50,472 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 successfully purchased 4 ticket(s).
+2024-11-13 09:14:50,472 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:14:53,438 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 2 ticket(s).
+2024-11-13 09:14:53,438 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 2 Tickets released. remainingTickets: 4
+2024-11-13 09:14:53,438 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:53,438 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:53,438 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:14:53,471 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 2 ticket(s).
+2024-11-13 09:14:53,471 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 2 Tickets released. remainingTickets: 2
+2024-11-13 09:14:53,471 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:53,471 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:53,471 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 successfully purchased 4 ticket(s).
+2024-11-13 09:14:53,472 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:14:53,472 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:14:53,488 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:14:53,488 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:14:53,488 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 2 ticket(s).
+2024-11-13 09:14:53,488 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 2 Tickets released. remainingTickets: 0
+2024-11-13 09:14:53,488 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:53,488 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:14:47 IST 2024}
+2024-11-13 09:14:53,488 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 successfully purchased 2 ticket(s).
+2024-11-13 09:14:53,488 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer 1 : No more tickets to purchase.
+2024-11-13 09:14:53,488 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer 1 : No more tickets to purchase.
+2024-11-13 09:14:53,488 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 successfully purchased 2 ticket(s).
+2024-11-13 09:14:56,440 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3: No more tickets to release.
+2024-11-13 09:14:56,440 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3: Finished releasing tickets.
+2024-11-13 09:14:56,472 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2: No more tickets to release.
+2024-11-13 09:14:56,472 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2: Finished releasing tickets.
+2024-11-13 09:14:56,472 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:14:56,472 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2: Finished purchasing tickets.
+2024-11-13 09:14:56,490 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1: No more tickets to release.
+2024-11-13 09:14:56,490 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1: Finished releasing tickets.
+2024-11-13 09:14:56,490 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:14:56,490 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3: Finished purchasing tickets.
+2024-11-13 09:14:56,491 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:14:56,491 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1: Finished purchasing tickets.
+2024-11-13 09:14:56,491 [main] INFO  org.ticketwavecli.Main - Ticketing Simulation completed.
+2024-11-13 09:15:05,831 [main] INFO  org.ticketwavecli.Main - Welcome to the Ticket Wave CLI
+2024-11-13 09:16:38,941 [main] INFO  org.ticketwavecli.Main - Welcome to the Ticket Wave CLI
+2024-11-13 09:16:43,990 [main] INFO  org.ticketwavecli.Main - Starting the ticketing system...
+2024-11-13 09:16:47,356 [main] INFO  org.ticketwavecli.ticketWaveCli - Configuration file loaded successfully.
+2024-11-13 09:16:47,376 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:16:47,376 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:16:47,377 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:16:47,377 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:16:47,377 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:16:47,377 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:16:47,377 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 2 ticket(s).
+2024-11-13 09:16:47,377 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 2 ticket(s).
+2024-11-13 09:16:47,377 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 2 ticket(s).
+2024-11-13 09:16:47,381 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 2 Tickets released. remainingTickets: 16
+2024-11-13 09:16:47,387 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:47,387 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:47,387 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:16:47,387 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:16:47,387 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:16:47,387 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 2 Tickets released. remainingTickets: 14
+2024-11-13 09:16:47,387 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 2 Tickets released. remainingTickets: 12
+2024-11-13 09:16:47,387 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:47,387 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:47,387 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:47,387 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:47,387 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:16:47,387 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:16:47,387 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 successfully purchased 4 ticket(s).
+2024-11-13 09:16:50,391 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 2 ticket(s).
+2024-11-13 09:16:50,391 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 2 Tickets released. remainingTickets: 10
+2024-11-13 09:16:50,392 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:50,392 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:50,392 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:16:50,393 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:16:50,401 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 2 ticket(s).
+2024-11-13 09:16:50,401 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 2 Tickets released. remainingTickets: 8
+2024-11-13 09:16:50,401 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:50,402 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:50,403 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 successfully purchased 4 ticket(s).
+2024-11-13 09:16:50,402 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 2 ticket(s).
+2024-11-13 09:16:50,403 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:16:50,404 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 2 Tickets released. remainingTickets: 6
+2024-11-13 09:16:50,404 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:16:50,404 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:50,406 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:50,406 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 successfully purchased 4 ticket(s).
+2024-11-13 09:16:50,406 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:16:53,406 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 2 ticket(s).
+2024-11-13 09:16:53,406 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 2 Tickets released. remainingTickets: 4
+2024-11-13 09:16:53,406 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 2 ticket(s).
+2024-11-13 09:16:53,406 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:53,406 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:53,406 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:16:53,406 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:16:53,406 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 2 ticket(s).
+2024-11-13 09:16:53,406 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 2 Tickets released. remainingTickets: 2
+2024-11-13 09:16:53,406 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:53,407 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:53,407 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 successfully purchased 4 ticket(s).
+2024-11-13 09:16:53,407 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:16:53,407 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 2 Tickets released. remainingTickets: 0
+2024-11-13 09:16:53,407 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:53,407 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:16:47 IST 2024}
+2024-11-13 09:16:53,407 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer 1 : No more tickets to purchase.
+2024-11-13 09:16:53,407 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer 1 : No more tickets to purchase.
+2024-11-13 09:16:53,407 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 successfully purchased 4 ticket(s).
+2024-11-13 09:16:53,407 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer 2 : No more tickets to purchase.
+2024-11-13 09:16:53,407 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer 2 : No more tickets to purchase.
+2024-11-13 09:16:53,407 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 successfully purchased 2 ticket(s).
+2024-11-13 09:16:56,409 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3: No more tickets to release.
+2024-11-13 09:16:56,409 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:16:56,409 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:16:56,409 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:16:56,411 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1: Finished purchasing tickets.
+2024-11-13 09:16:56,409 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2: No more tickets to release.
+2024-11-13 09:16:56,411 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2: Finished releasing tickets.
+2024-11-13 09:16:56,409 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1: No more tickets to release.
+2024-11-13 09:16:56,411 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1: Finished releasing tickets.
+2024-11-13 09:16:56,411 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2: Finished purchasing tickets.
+2024-11-13 09:16:56,410 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3: Finished purchasing tickets.
+2024-11-13 09:16:56,410 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3: Finished releasing tickets.
+2024-11-13 09:16:56,411 [main] INFO  org.ticketwavecli.Main - Ticketing Simulation completed.
+2024-11-13 09:17:17,365 [main] WARN  org.ticketwavecli.Main - Trying to start the system when system already running.
+2024-11-13 09:17:24,506 [main] INFO  org.ticketwavecli.Main - Ticket wave CLI stopping...
+2024-11-13 09:17:24,506 [main] INFO  org.ticketwavecli.Main - Ticket wave CLI stopped.
+2024-11-13 09:17:29,156 [main] INFO  org.ticketwavecli.Main - Starting the ticketing system...
+2024-11-13 09:17:31,967 [main] INFO  org.ticketwavecli.ticketWaveCli - Configuration file loaded successfully.
+2024-11-13 09:17:31,967 [Thread-6] INFO  org.ticketwavecli.Vendor - Vendor 1: No more tickets to release.
+2024-11-13 09:17:31,974 [Thread-6] INFO  org.ticketwavecli.Vendor - Vendor 1: Finished releasing tickets.
+2024-11-13 09:17:31,967 [Thread-7] INFO  org.ticketwavecli.Vendor - Vendor 2: No more tickets to release.
+2024-11-13 09:17:31,974 [Thread-11] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:17:31,974 [Thread-10] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:17:31,974 [Thread-9] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:17:31,974 [Thread-8] INFO  org.ticketwavecli.Vendor - Vendor 3: No more tickets to release.
+2024-11-13 09:17:31,974 [Thread-9] INFO  org.ticketwavecli.Customer - Customer 1: Finished purchasing tickets.
+2024-11-13 09:17:31,974 [Thread-10] INFO  org.ticketwavecli.Customer - Customer 2: Finished purchasing tickets.
+2024-11-13 09:17:31,974 [Thread-11] INFO  org.ticketwavecli.Customer - Customer 3: Finished purchasing tickets.
+2024-11-13 09:17:31,974 [Thread-7] INFO  org.ticketwavecli.Vendor - Vendor 2: Finished releasing tickets.
+2024-11-13 09:17:31,974 [Thread-8] INFO  org.ticketwavecli.Vendor - Vendor 3: Finished releasing tickets.
+2024-11-13 09:17:31,974 [main] INFO  org.ticketwavecli.Main - Ticketing Simulation completed.
+2024-11-13 09:18:03,727 [main] INFO  org.ticketwavecli.Main - Welcome to the Ticket Wave CLI
+2024-11-13 09:18:07,721 [main] INFO  org.ticketwavecli.Main - Starting the ticketing system...
+2024-11-13 09:18:12,904 [main] INFO  org.ticketwavecli.ticketWaveCli - Starting new configuration creation.
+2024-11-13 09:18:15,244 [main] ERROR org.ticketwavecli.ticketWaveCli - Error while entering Total Tickets: For input string: "k"
+2024-11-13 09:18:26,252 [main] INFO  org.ticketwavecli.ticketWaveCli - Set Total Tickets to 25
+2024-11-13 09:18:37,689 [main] INFO  org.ticketwavecli.ticketWaveCli - Set Ticket Release Rate to 3
+2024-11-13 09:18:40,993 [main] INFO  org.ticketwavecli.ticketWaveCli - Set Customer Retrieval Rate to 2
+2024-11-13 09:18:48,499 [main] INFO  org.ticketwavecli.ticketWaveCli - Set Max Ticket Capacity to 5
+2024-11-13 09:18:48,546 [main] INFO  org.ticketwavecli.ticketWaveCli - Configuration file saved successfully.
+2024-11-13 09:18:48,559 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:18:48,559 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:18:48,559 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:18:48,560 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 Waiting for tickets to purchase...
+2024-11-13 09:18:48,560 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:18:48,560 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:18:48,562 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 3 ticket(s).
+2024-11-13 09:18:48,562 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 3 ticket(s).
+2024-11-13 09:18:48,562 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 3 ticket(s).
+2024-11-13 09:18:48,566 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 3 Tickets released. remainingTickets: 22
+2024-11-13 09:18:48,587 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:48,587 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:48,587 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:48,588 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 Waiting for tickets to purchase...
+2024-11-13 09:18:48,588 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 Waiting for tickets to purchase...
+2024-11-13 09:18:48,588 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 3 Tickets released. remainingTickets: 19
+2024-11-13 09:18:48,587 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 successfully purchased 2 ticket(s).
+2024-11-13 09:18:48,588 [Thread-0] INFO  org.ticketwavecli.TicketPool - Ticket Pool is full. Vendor1 is waiting.
+2024-11-13 09:18:48,588 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:48,588 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:48,588 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 successfully purchased 2 ticket(s).
+2024-11-13 09:18:48,588 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:48,589 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 successfully purchased 2 ticket(s).
+2024-11-13 09:18:48,589 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 3 Tickets released. remainingTickets: 16
+2024-11-13 09:18:51,567 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 3 ticket(s).
+2024-11-13 09:18:51,567 [Thread-2] INFO  org.ticketwavecli.TicketPool - Ticket Pool is full. Vendor3 is waiting.
+2024-11-13 09:18:51,599 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:18:51,599 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:18:51,599 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 3 ticket(s).
+2024-11-13 09:18:51,599 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 3 ticket(s).
+2024-11-13 09:18:51,599 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:18:51,601 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:51,602 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:51,602 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 successfully purchased 2 ticket(s).
+2024-11-13 09:18:51,602 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 3 Tickets released. remainingTickets: 13
+2024-11-13 09:18:51,603 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:51,603 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:51,604 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 successfully purchased 2 ticket(s).
+2024-11-13 09:18:51,604 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 3 Tickets released. remainingTickets: 10
+2024-11-13 09:18:51,605 [Thread-1] INFO  org.ticketwavecli.TicketPool - Ticket Pool is full. Vendor2 is waiting.
+2024-11-13 09:18:51,606 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:51,606 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:51,606 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 successfully purchased 2 ticket(s).
+2024-11-13 09:18:51,606 [Thread-1] INFO  org.ticketwavecli.TicketPool - Ticket Pool is full. Vendor2 is waiting.
+2024-11-13 09:18:54,612 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:18:54,612 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:18:54,612 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:18:54,612 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 3 ticket(s).
+2024-11-13 09:18:54,612 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1 releasing 3 ticket(s).
+2024-11-13 09:18:54,612 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:54,614 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:54,614 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 successfully purchased 2 ticket(s).
+2024-11-13 09:18:54,614 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 3 Tickets released. remainingTickets: 7
+2024-11-13 09:18:54,615 [Thread-0] INFO  org.ticketwavecli.TicketPool - Ticket Pool is full. Vendor1 is waiting.
+2024-11-13 09:18:54,615 [Thread-2] INFO  org.ticketwavecli.TicketPool - Ticket Pool is full. Vendor3 is waiting.
+2024-11-13 09:18:54,615 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:54,615 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:54,615 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 successfully purchased 2 ticket(s).
+2024-11-13 09:18:54,615 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:54,615 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:54,615 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 successfully purchased 2 ticket(s).
+2024-11-13 09:18:54,615 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : 3 Tickets released. remainingTickets: 4
+2024-11-13 09:18:54,619 [Thread-0] INFO  org.ticketwavecli.TicketPool - Ticket Pool is full. Vendor1 is waiting.
+2024-11-13 09:18:57,622 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:18:57,622 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:18:57,622 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3 releasing 3 ticket(s).
+2024-11-13 09:18:57,622 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2 releasing 3 ticket(s).
+2024-11-13 09:18:57,622 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:18:57,622 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:57,624 [Thread-4] INFO  org.ticketwavecli.TicketPool - Customer2 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:57,625 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 successfully purchased 2 ticket(s).
+2024-11-13 09:18:57,625 [Thread-0] INFO  org.ticketwavecli.TicketPool - Vendor 1 : 3 Tickets released. remainingTickets: 1
+2024-11-13 09:18:57,625 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:57,626 [Thread-5] INFO  org.ticketwavecli.TicketPool - Customer3 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:57,626 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 successfully purchased 2 ticket(s).
+2024-11-13 09:18:57,626 [Thread-1] INFO  org.ticketwavecli.TicketPool - Vendor 2 : 3 Tickets released. remainingTickets: 0
+2024-11-13 09:18:57,627 [Thread-2] INFO  org.ticketwavecli.TicketPool - Vendor 3 : No more tickets to release.
+2024-11-13 09:18:57,628 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:57,628 [Thread-3] INFO  org.ticketwavecli.TicketPool - Customer1 :Ticket purchased: Ticket{Event ID=100, Event Name='Aluth Kalawak', Event Type='Musical', Event Date=Wed Nov 13 09:18:48 IST 2024}
+2024-11-13 09:18:57,628 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 successfully purchased 2 ticket(s).
+2024-11-13 09:19:00,637 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3 : No more tickets available to purchase.
+2024-11-13 09:19:00,638 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1: No more tickets to release.
+2024-11-13 09:19:00,638 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1 : No more tickets available to purchase.
+2024-11-13 09:19:00,637 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2: No more tickets to release.
+2024-11-13 09:19:00,639 [Thread-1] INFO  org.ticketwavecli.Vendor - Vendor 2: Finished releasing tickets.
+2024-11-13 09:19:00,637 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3: No more tickets to release.
+2024-11-13 09:19:00,637 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2 : No more tickets available to purchase.
+2024-11-13 09:19:00,639 [Thread-4] INFO  org.ticketwavecli.Customer - Customer 2: Finished purchasing tickets.
+2024-11-13 09:19:00,639 [Thread-2] INFO  org.ticketwavecli.Vendor - Vendor 3: Finished releasing tickets.
+2024-11-13 09:19:00,639 [Thread-0] INFO  org.ticketwavecli.Vendor - Vendor 1: Finished releasing tickets.
+2024-11-13 09:19:00,639 [Thread-3] INFO  org.ticketwavecli.Customer - Customer 1: Finished purchasing tickets.
+2024-11-13 09:19:00,638 [Thread-5] INFO  org.ticketwavecli.Customer - Customer 3: Finished purchasing tickets.
+2024-11-13 09:19:00,639 [main] INFO  org.ticketwavecli.Main - Ticketing Simulation completed.
+2024-11-13 09:19:11,326 [main] INFO  org.ticketwavecli.Main - Ticket wave CLI stopping...
+2024-11-13 09:19:11,326 [main] INFO  org.ticketwavecli.Main - Ticket wave CLI stopped.
+2024-11-13 09:19:28,358 [main] INFO  org.ticketwavecli.Main - TicketWaveCli exiting...
+2024-11-13 09:19:28,358 [main] INFO  org.ticketwavecli.Main - TicketWaveCli ended.
+2024-11-13 09:20:22,201 [main] INFO  org.ticketwavecli.Main - Welcome to the Ticket Wave CLI
+2024-11-13 09:20:24,868 [main] WARN  org.ticketwavecli.Main - Invalid command entered: p
