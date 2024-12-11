@@ -75,7 +75,7 @@ public class Main {
 
                     logger.info("Ticketing Simulation completed.");
                     System.out.println("Ticketing Simulation completed.");
-                    
+
                 } else {
                     logger.warn("Trying to start the system when system already running.");
                     System.out.println("The ticketing system is already running.");
@@ -85,7 +85,7 @@ public class Main {
 
                 if (run) {
                     run = false;
-                    logger.info("Ticket wave CLI stopping...");
+                    logger.info("TicketWaveCLI stopping...");
 
                     for (Thread thread : vendors) {
                         thread.interrupt();
@@ -97,11 +97,11 @@ public class Main {
                     vendors.clear();
                     customers.clear();
 
-                    logger.info("Ticket wave CLI stopped.");
-                    System.out.println("Ticket wave CLI stopped.");
+                    logger.info("TicketWaveCLI stopped.");
+                    System.out.println("TicketWaveCLI stopped.");
                 } else {
-                    logger.warn("Ticket wave CLI not running.");
-                    System.out.println("Ticket wave CLI not running.");
+                    logger.warn("TicketWaveCLI not running.");
+                    System.out.println("TicketWaveCLI not running.");
                 }
 
             } else if (command.equalsIgnoreCase("exit")) {
@@ -116,7 +116,7 @@ public class Main {
             }
         }
 
-        System.out.println("Ticket wave CLI Ended.");
+        System.out.println("TicketWaveCLI Ended.");
         logger.info("TicketWaveCli ended.");
     }
 }

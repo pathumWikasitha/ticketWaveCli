@@ -548,3 +548,5 @@
 2024-11-13 09:19:28,358 [main] INFO  org.ticketwavecli.Main - TicketWaveCli ended.
 2024-11-13 09:20:22,201 [main] INFO  org.ticketwavecli.Main - Welcome to the Ticket Wave CLI
 2024-11-13 09:20:24,868 [main] WARN  org.ticketwavecli.Main - Invalid command entered: p
+2024-11-19 14:10:09,450 [main] INFO  org.ticketwavecli.Main - Welcome to the Ticket Wave CLI
+2024-11-19 14:10:29,265 [main] INFO  org.ticketwavecli.Main - Starting the ticketing system...
